@@ -77,8 +77,8 @@ const OyunYaratHusnuEhedov = chatId => {
 
 
 const ozelMesaj = isGroup => Degisken(`
-    ✨Salam Mənim adım [N A Z R Y N Səkil Oyun Botu](http://t.me/nezringamebot) \nŞəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.
-    ${isGroup ? "" : "\n[N A Z R Y N Səkil Oyun Botunan](http://t.me/nezringamebot) Əyləncəli vaxd keçirmək üçün aşağıdakı qrupa əlavə ed Buttona Toxunaraq qrupunuza əlavə edin.\n\n💞Ətrafli Məlumat üçün /help əmrinə toxunun."}
+    ✨Salam Mənim adım [N A Z R Y N Səkil Oyun Botu](http://t.me/NezrinGameRoBot) \nŞəkillərin yaşları təxmin edərək əyləncə vaxd keçirmək üçün yaradılmış şəkil təxmin bot.
+    ${isGroup ? "" : "\n[N A Z R Y N Səkil Oyun Botunan](http://t.me/nezringameRobot) Əyləncəli vaxd keçirmək üçün aşağıdakı qrupa əlavə ed Buttona Toxunaraq qrupunuza əlavə edin.\n\n💞Ətrafli Məlumat üçün /help əmrinə toxunun."}
 `)
 
 const YasOyunBaslat = () => {  // OYUN RESİM ALMASI GEREK DOSYA KONUM 
@@ -399,7 +399,7 @@ ${(top).sort((a, b) => b.score - a.score).slice(0, 20).map((member, index) => `$
 
 bot.command("help", (ctx) => {
     return ctx.replyWithMarkdown(Degisken(`
-        ✨[N A Z R Y N Sekil Oyun Botunun](http://t.me/nezringamebot) Kömək Əmrlər Bunlardır.⤵️\n\nℹ️Qayda budur: Mən sizə şəkillər göndərirəm və siz kateqoriyaya uyğun rəqəmlərlə təxmin etməlisiniz.\nİlk olaraq qrupa əlavə edin və qrupda media izinizin olmasını unutmayın! və ya botu administrator edin.\nSonra Commands ilə oyuna başlayın.\n\n📚Əmrlərin siyahısı⤵️\n🌆 /game - Oyuna başlayın\n📛 /stop - oyunu dayandırın \n📊 /gbal - Oyunçuların xallarını göstərir. \n🌍 /global - Qlobal Ballar. \nℹ️ /help - Müəlumat üçün. \n👤 /info - İstifadəçi haqqında məlumat. \n🆔 /id - Qrup idsi haqqında məlumat.`))
+        ✨[N A Z R Y N Sekil Oyun Botunun](http://t.me/nezringamerobot) Kömək Əmrlər Bunlardır.⤵️\n\nℹ️Qayda budur: Mən sizə şəkillər göndərirəm və siz kateqoriyaya uyğun rəqəmlərlə təxmin etməlisiniz.\nİlk olaraq qrupa əlavə edin və qrupda media izinizin olmasını unutmayın! və ya botu administrator edin.\nSonra Commands ilə oyuna başlayın.\n\n📚Əmrlərin siyahısı⤵️\n🌆 /game - Oyuna başlayın\n📛 /stop - oyunu dayandırın \n📊 /gbal - Oyunçuların xallarını göstərir. \n🌍 /global - Qlobal Ballar. \nℹ️ /help - Müəlumat üçün. \n👤 /info - İstifadəçi haqqında məlumat. \n🆔 /id - Qrup idsi haqqında məlumat.`))
 })
 
 bot.command("info", async (ctx) => {
